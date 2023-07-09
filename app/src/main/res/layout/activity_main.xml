@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_bar"
+        android:thumb="@drawable/arrow"
+        android:background="@drawable/seekbar_design"
+        />
+
+        <!--to set icon as progress bar
+        android:thumb="drawable"
+
+     ///to rotate progress bar
+     android:rotation="90 or 270"
+     -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view"
+        android:text="0"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>
